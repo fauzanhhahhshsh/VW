@@ -89,7 +89,7 @@ shared.ForcePlayerGui = true
 if game.PlaceId == 79546208627805 then
     pcall(function()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "Suki | 99 Nights In The Forest",
+            Title = "Suki Script | 99 Nights In The Forest",
             Text = "Go In Game for Suki to load :D [You are in lobby currently]",
             Duration = 10
         })
@@ -183,4 +183,4 @@ end)
 
 local commit = shared.CustomCommit and tostring(shared.CustomCommit) or shared.StagingMode and "staging" or "35ead6360a229d785bb5c2644a694b495f2cd58f"
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/"..tostring(commit).."/newnightsintheforest.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/"..tostring(commit).."/nightsintheforest.lua", true))()
